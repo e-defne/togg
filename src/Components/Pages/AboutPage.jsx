@@ -7,9 +7,9 @@ import Footer from "../Footer/Footer";
 
 const AboutPage = () => {
   let heroData = [
-    { text1: "TOGG Hissini", text2: "keşfetmeye hazır mısın" },
-    { text1: "Zevkini Yansıtan", text2: "tasarımı seç!" },
-    { text1: "Eşsiz Tasarımını", text2: "ruhunda hisset..." },
+    { text1: "" },
+    { text1: "" },
+    { text1: "" },
   ];
   const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);

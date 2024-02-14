@@ -2,14 +2,18 @@
   font-size: 20px;
   justify-content: center;
   text-align: justify;
-}
+   margin-top: 50px;
+  margin-inline: 300px;}
 .row h3 {
   justify-content: center;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .row img {
   margin-left: 200px;
   border: 1px solid black;
   width: 800px;
+  margin-top: 300px;
+  margin-bottom: 10px;
 }

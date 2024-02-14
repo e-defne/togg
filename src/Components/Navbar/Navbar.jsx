@@ -14,7 +14,7 @@ const Navbar = () => {
           ANA SAYFA
         </NavLink>
         <NavLink to="/product" className="nav-a ">
-          ÜRÜNLER
+          MEGA
         </NavLink>
         <NavLink to="/about" className="nav-a ">
           HAKKIMIZDA

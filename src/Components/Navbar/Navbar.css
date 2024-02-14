@@ -4,10 +4,12 @@
   align-items: center;
   margin: 20px 120px;
   color: white;
+  
 }
 .nav-logo {
   font-size: 52px;
   font-weight: 600;
+ 
 }
 .nav-menu {
   display: flex;
@@ -16,6 +18,9 @@
   font-size: 18px;
   gap: 90px;
   text-decoration: none !important;
+  
+ 
+  
 }
 .nav-contact {
   border-radius: 50px;
@@ -32,5 +37,5 @@
 }
 .nav-a {
   text-decoration: none;
-  color: #fff;
+  color: #151515;
 }

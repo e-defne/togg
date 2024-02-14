@@ -26,7 +26,7 @@ const Footer = () => {
                 <a href="#">İletişim</a>
               </li>
               <li>
-                <a href="#">Ürünler</a>
+                <a href="#">MEGA</a>
               </li>
               <li>
                 <a href="#">Güvenlik Politikası</a>
@@ -38,10 +38,7 @@ const Footer = () => {
           </div>
 
           <div className="row">
-            28 Haziran 2018’de resmi kuruluşu gerçekleşen ve 18 ay sonra ilk ön
-            gösterim aracını ve sedan görünümünü ortaya çıkaran TOGG, fabrikanın
-            temellerini 18 Temmuz 2020 tarihinde başlattı. Üretimin ise 2022
-            yılında başladı.Hala hizmete hızla devam etmekte.
+            
           </div>
         </div>
       </footer>

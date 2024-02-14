@@ -1,24 +1,22 @@
-import images4 from "../../assets/togg-sedan-konsept-21.jpg";
+
 import "./ProductV.css";
+import mera1 from "../../assets/mera1.mp4";
 const ProductV = () => {
   return (
     <div className="product1">
       <div className="product1-container">
+        
         <div className="product1-right">
-          <img className="image" src={images4} />
+          <video className="image" autoPlay loop muted>
+            <source src={mera1} type="video/mp4" />
+          </video>
         </div>
         <div className="product1-left">
-          <h2>Togg Sedan Modeli</h2>
+          <h2>BİRLİKTE YÖNETİYORUZ</h2>
+          
           <p>
-            Tamamen elektrikli yerli otomobilin ön ve arka aksında iki elektrik
-            motoru bulunuyor. Bu sayede aracın dört tekerlekten çekişli bir
-            model olacağını biliyoruz. Toplamda 400 beygir güç üretecek
-            motorlar, yerli otomobilin 0-100 km/s hızlanmasını 4.8 saniyede
-            tamamlamasına imkan verecek. 200 beygir güç üretecek arkadan itişli
-            versiyonda ise söz konusu süre 7.6 saniyeye çıkacak. Araç menziline
-            %20 katkı sağladığı söylenen geri kazanımlı frenleme teknolojisiyle
-            de donatılan yerli otomobilin maksimum hızı 180 km/s ile
-            sınırlandırılmış.
+          Meram Belediyesinin hayata geçirdiği yeni nesil eğitim projesi Meram Gelişim Akademisi (MEGA), her yıl 75 bin öğrencinin hayatına dokunuyor. Ahlaki karakter eğitimini merkeze alarak yeni nesli, yeni nesil eğitim yöntemleriyle tanıştıran ve bilim, sanat, yaşam, doğa, sağlık ve spor eğitimleriyle yeni bir çığır açan MEGA ortaya koyduğu projelerle her yıl olduğu gibi 2023’ün de yıldızı oldu.
+            
           </p>
         </div>
       </div>

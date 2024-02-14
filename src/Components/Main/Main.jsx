@@ -1,25 +1,20 @@
-import videos from "../../assets/togg-video.mp4";
+import videos from "../../assets/mega1.mp4";
 import "./Main.css";
 const Main = () => {
   return (
     <div className="Main">
       <div className="main-container">
         <div className="text-container-right">
-          <h2>Bir otomobilden fazlası</h2>
-          <h3>
-            Birbirine bağlı akıllı cihaz ve servisler tasarlayarak
-            kullanıcıların hayatlarını kolaylaştıran bir ekosistem inşa
-            ediyoruz.
-          </h3>
+          <h2>Mega Nedir?</h2>
           <p>
-            Sıfır emisyonla sürdürülebilir bir gelecek tasarlıyoruz.Görünenden
-            fazlası, sınırsız hayallerin başlangıç noktası. Hem insan odaklı hem
-            de çok akıllı. Hayatla bağlantılı, herkesle paylaşımlı.
+          Toplum hayatı açısından ilerlemek ve mesafe kat edebilmek için bir neslin kendinden sonraki nesle aktaracağı tecrübe ve birikimlerle mümkün olacağı bilinen temel bir gerçektir. Günümüzde giderek karmaşıklaşan bilgi ve becerileri kazanabilen ve bu bilgilerin hızlı değişimine ayak uydurabilen bireylerin yetiştirilmesine ihtiyaç duyulmaktadır.
+
+Bu kapsamda YENİ NESİL EĞİTİM PROJESİ ile hem dijital bir çağda doğmuş ve büyümüş olan “yeni neslin” yani z kuşağı ve Alfa kuşağının farklılaşan eğitim beklentilerine cevap vermek hem de önceki nesillerin kültürel aktarımını gerçekleştirecek ve nesiller arası iletişimi kuvvetlendirecek “yeni” bir çalışmadır.
+
+Temel eğitim, ortaöğretim, yüksek öğretim kurumları, sivil toplum kuruluşları ve meslek birliklerinin paydaşlığında bireylerin karakter eğitimi gerçekleştirilecektir.
           </p>
-          Durmadan yenilik, gücü elektrik. Hem empatik, hem akıllı.
-          <br></br>
-          Mobilite deneyimini baştan sona değiştiren, oluşturduğu 3. yaşam alanı
-          ile ihtiyaç duyduğunuz tek akıllı cihaz.
+      
+
         </div>
         <div className="image-container-left">
           <video className="image" autoPlay loop muted>

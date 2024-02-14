@@ -1,7 +1,6 @@
 import "./Hero.css";
-// import arrow_btn from "../../assets/arrow_btn.png";
-import play_icon from "../../assets/play_icon.png";
-import pause_icon from "../../assets/pause_icon.png";
+
+
 import PropTypes from "prop-types";
 const Hero = ({
   heroData,
@@ -16,10 +15,7 @@ const Hero = ({
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
-      {/* <div className="hero-explore">
-        <p>ÖZELLİKLERİ KEŞFET</p>
-        <img src={arrow_btn} alt="" />
-      </div> */}
+      
       <div className="hero-dot-play">
         <ul className="hero-dots">
           <li
@@ -37,12 +33,11 @@ const Hero = ({
         </ul>
         <div className="hero-play">
           <img
-            style={{ width: "40px" }}
+            style={{ width: "4px" }}
             onClick={() => setPlayStatus(!playStatus)}
-            src={playStatus ? pause_icon : play_icon}
-            alt=""
+            
           />
-          <p>Videoyu İzle</p>
+          <p></p>
         </div>
       </div>
     </div>

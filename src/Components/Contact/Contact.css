@@ -7,7 +7,7 @@
 }
 
 .contact-bottom .contact-titles h4 {
-  color: #e51414;
+  color: #121010;
   font-weight: 500;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .contact-bottom .contact-form > div label span {
-  color: #e51414;
+  color: #f9f8f8;
 }
 
 .contact-bottom .contact-form > div:nth-child(3),
@@ -51,8 +51,8 @@
 }
 
 .contact-bottom .contact-form .form-button {
-  background-color: black;
-  color: #fff;
+  background-color: rgb(199, 190, 190);
+  color: #5e5a5a;
 }
 
 .contact-elements .contact-info {
@@ -101,7 +101,7 @@
 
 .contact a {
   text-decoration: none;
-  color: #eeeeee;
+  color: #0d0d0d;
 }
 
 .contact p {

@@ -7,7 +7,7 @@
   padding: none;
   position: absolute; /* position: fixed; yerine absolute kullanıyoruz */
   object-fit: cover;
-  z-index: -1; /* Resmin altta kalmasını istediğiniz elementin z-index değerini düşük belirleyin */
+  z-index: -1; 
 }
 @keyframes fadeIn {
   from {
@@ -20,3 +20,4 @@
 .fade-in {
   animation: fadeIn 500ms ease-in-out;
 }
+
